@@ -1,10 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$servername = "localhost";
-$username = "root";
-$password = "kutyapenisz23";
-$dbname = "szrcs";
+require_once "config.php";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
